@@ -1,42 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-  <link rel="stylesheet" href="./src/style/index.css">
-</head>
-<body>
-  <header class="header">
-    <div class="logo">
-      <h1 class="title">facebook</h1>
-      <button class="btn">注册</button>
-    </div>
-    <aside class="aside">加入或登录FaceBook</aside>
-  </header>
-  <main>
-    <div>
-      <h2>创建主页</h2>
-      <p>向Facebook全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。</p>
-    </div>
-    <div>
-      <section>
-        <img src="" alt="" />
-        <h3>商家或品牌</h3>
-        <p>在Facebook上展示商品和服务，突显品牌，向更多顾客推广业务。</p>
-        <button>开始</button>
-      </section>
-      <section>
-        <img src="" alt="" />
-        <h3>社群或公众人物</h3>
-        <p>与你的社群、组织、团队、小组或俱乐部中的用户建立联系，分享内容。</p>
-        <button>开始</button>
-      </section>
-    </div>
-
-  </main>
-  <script src="src/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./src/style/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1 class="title">facebook</h1>
+        <button class="btn">注册</button>
+      </div>
+      <aside class="aside">加入或登录FaceBook</aside>
+    </header>
+    <main class="main">
+      <div class="title">
+        <h2>创建主页</h2>
+        <p>
+          向Facebook全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+        </p>
+      </div>
+      <div class="section-wrapper">
+        <section class="section">
+          <div class="desc">
+            <img
+              src="https://facebook.com/images/pages/create/biz_illustration.png"
+              class="img"
+            />
+            <h3>商家或品牌</h3>
+            <p class="text">在Facebook上展示商品和服务，突显品牌，向更多顾客推广业务。</p>
+          </div>
+          <button class="btn">开始</button>
+        </section>
+        <section class="section">
+          <div class="desc">
+            <img
+              src="https://facebook.com/images/pages/create/community_illustration.png"
+              class="img"
+            />
+            <h3>社群或公众人物</h3>
+            <p class="text">
+              与你的社群、组织、团队、小组或俱乐部中的用户建立联系，分享内容。
+            </p>
+          </div>
+          <button class="btn">开始</button>
+        </section>
+      </div>
+    </main>
+    <script src="src/app.js"></script>
+  </body>
 </html>

@@ -46,12 +46,14 @@ ul {
   background-color: #42b72a;
   color: #fff;
   margin-left: 10px;
-  padding: 10px 10px;
+  padding: 12px 12px;
   border: 1px solid transparent;
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 5px;
 }
 
 .header .aside::after {
@@ -64,4 +66,56 @@ ul {
   position: relative;
   top: 12px;
   left: 8px;
+}
+
+.main {
+  padding: 0 200px;
+}
+
+.main .title {
+  margin: 20px 0 60px;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.section-wrapper .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  margin-right: 40px;
+}
+
+.section-wrapper .section .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.section-wrapper .section .desc .text {
+  color: gray;
+  text-align: center;
+}
+
+.section-wrapper .section .img {
+  width: 200px;
+}
+
+.section-wrapper .btn {
+  height: 20px;
+  background-color: #e9ebee;
+  padding: 15px 15px;
+  border: 1px solid transparent;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
